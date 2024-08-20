@@ -6,7 +6,6 @@
     text-decoration: none;
     font-family: helvetica;
 }
-
 .moverCubo {
     display: flex;
     margin-left: 50px;
@@ -69,7 +68,7 @@
 }
 
 
-.moverLogin {
+.moverLogin{
     display: grid;
     justify-content: center;
     align-content: center;
@@ -107,7 +106,7 @@
     color: #000;
     font-size: 1.5rem;
     text-transform: uppercase;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .brutalist-card__message {
@@ -172,18 +171,13 @@
 }
 
 .brutalist-card__button--mark:hover {
-    background-color: #296fbb;
-    border-color: #296fbb;
+    background-color: #057a28;
+    border-color: #057a28;
     color: #fff;
-    box-shadow: 7px 7px 0 #004280;
+    box-shadow: 7px 7px 0 #01300f;
 }
 
-.brutalist-card__button--read:hover {
-    background-color: #ff0000;
-    border-color: #ff0000;
-    color: #fff;
-    box-shadow: 7px 7px 0 #800000;
-}
+
 
 .brutalist-card__button:active {
     transform: translate(5px, 5px);
@@ -464,5 +458,5 @@
     background-blend-mode: normal, normal, normal, normal, normal;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 600px;
 }
