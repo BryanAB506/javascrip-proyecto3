@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/javascrip-proyecto3/src/css/estilo.css">
     <title>Document</title>
 </head>
-<body class="body">
-    <header class="head">
-        <h2 class="txt">FWD</h2>
-        <img class="img" src="/ProyectoJsTareas/img/descarga.png" alt="">
-    </header>
 
-    <div>
-        <form id="loginForm">
-            <section class="section">
-                <h5>Login</h5>
-                <div class="btns">
+<body class="body">
+
+    <div class="moverLogin">
+        <div class="brutalist-card">
+            <div class="brutalist-card__header">
+                <div class="brutalist-card__icon">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="brutalist-card__alert">Login</div>
+            </div>
+            <div class="brutalist-card__message">
+                <div class="">
                     <label for="email">Email</label>
                     <input class="controls" type="email" id="email" name="email" required>
                 </div>
-                <div class="btns">
+                <div class="">
                     <label for="password">Contraseña</label>
                     <input class="controls" type="password" id="password" name="password" required>
                 </div>
-                <div>
-                    <button class="boton" type="submit">Ingresar</button>
-                    <button class="boton2"><a href="index2.html">Registrarse</a></button>
-                </div>
-                <div id="message"></div>
-            </section>
-        </form>
+            </div>
+            <div class="brutalist-card__actions">
+                <button class="brutalist-card__button brutalist-card__button--mark" href="#">Login</button>
+                <button class="brutalist-card__button brutalist-card__button--read" href="#">Sing Up</button>
+            </div>
+        </div>
     </div>
-    
+
+
 </body>
+
 </html>
