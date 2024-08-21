@@ -237,13 +237,13 @@
     color: aliceblue;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    border-bottom: 2px solid white;
     display: grid;
     
 }
 
 #agregarCons{
-    color: aliceblue;
+    color: black;
     font-size: 1.7em;
     box-shadow: inset;
     width: 300px;
@@ -253,7 +253,7 @@
 
 
 #inputAgre{
-    height: 180px;background-color: rgba(228, 234, 234, 0);
+    height: 180px;background-color: rgba(49, 151, 151, 0);
     width: 377px;
     border-radius: 10px;
     color: aliceblue;
@@ -288,13 +288,14 @@ button {
 
 
    #bordes{
-    border: 5px solid rgba(0, 0, 0, 0.808);
+    border: 5px solid rgba(67, 51, 51, 0.922);
     width: 385px;
     height: 130px;
     border-radius: 10px;
     -webkit-box-shadow: -7px -1px 34px -6px rgba(0,0,0,0.82);
     -moz-box-shadow: -7px -1px 34px -6px rgba(0,0,0,0.82);
     box-shadow: -7px -1px 34px -6px rgba(0,0,0,0.82);
+    background-color: #ffffff;
    }
 
    #buton{
@@ -310,7 +311,7 @@ button {
     height: 25px;
     font-size: 1.1em;
     background-color: #fff5f525;
-    color: #fff;
+    color: black;
    }
 
 
