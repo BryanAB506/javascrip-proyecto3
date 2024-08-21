@@ -1,3 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: helvetica;
+}
+
+
+
+formfont b{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ftm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-left: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    margin-top: 150px;
+}
+
+.container-form{
+    padding: 16px;
+    justify-content: center;
+    display: block;
+    text-align: center;
+}
+
+input[type=text],
+input[type=password]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.sendbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border-radius: 1px solid;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+    border-radius: 8px;
+}
+
+.sendbtn:hover {
+    opacity: 1;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.cancelbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border-radius: 1px solid;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+    border-radius: 8px;
+}
+
 @keyframes hero-gradient-animation {
     0% {
         --c-0: hsla(289, 100%, 52%, 1);
