@@ -6,11 +6,15 @@
 
 
 
+
+
+
 formfont b{
     text-align: center;
     font-weight: lighter;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
 .ftm{
@@ -23,7 +27,8 @@ formfont b{
     margin-left: 350px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-    margin-top: 150px;
+    margin-top: 40px;
+    background-color: white;
 }
 
 .container-form{
@@ -31,6 +36,7 @@ formfont b{
     justify-content: center;
     display: block;
     text-align: center;
+    color: black;
 }
 
 input[type=text],
@@ -85,6 +91,169 @@ a {
     opacity: 0.9;
     border-radius: 8px;
 }
+
+
+
+#label{
+    font-size: 1.3em;
+}
+
+#select{
+    font-size: 1.3em;
+    width: 580px;
+    height: 47px;
+    background-color: black;
+    color: white;
+}
+
+#date{
+    font-size: 1.3em;
+    width: 580px;
+    height: 47px; 
+    background-color: rgba(0, 0, 0, 0.484);
+    color: white;
+}
+
+
+#Consultas{
+    width: 590px;
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+}
+
+
+#detalleCon{
+    width: 590px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+}
+
+
+
+
+
+.brutalist-card {
+    width: 320px;
+    border: 4px solid #000;
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: 10px 10px 0 #000;
+    font-family: "Arial", sans-serif;
+}
+
+.brutalist-card__header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #000;
+    padding-bottom: 1rem;
+}
+
+
+
+.brutalist-card__icon svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: #fff;
+}
+
+.brutalist-card__alert {
+    font-weight: 900;
+    color: #000;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.brutalist-card__message {
+    margin-top: 1rem;
+    color: #000;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    border-bottom: 2px solid #000;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+
+.brutalist-card__actions {
+    margin-top: 1rem;
+}
+
+.brutalist-card__button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 3px solid #000;
+    background-color: #fff;
+    color: #000;
+    position: relative;
+    transition: all 0.2s ease;
+    box-shadow: 5px 5px 0 #000;
+    overflow: hidden;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.brutalist-card__button--read {
+    background-color: #000;
+    color: #fff;
+}
+
+.brutalist-card__button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg,
+            transparent,
+            rgba(255, 255, 255, 0.3),
+            transparent);
+    transition: all 0.6s;
+}
+
+.brutalist-card__button:hover::before {
+    left: 100%;
+}
+
+.brutalist-card__button:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 7px 7px 0 #000;
+}
+
+.brutalist-card__button--mark:hover {
+    background-color: #057a28;
+    border-color: #057a28;
+    color: #fff;
+    box-shadow: 7px 7px 0 #01300f;
+}
+.brutalist-card__button--red:hover {
+    background-color: red;
+    border-color: #2e1202;
+    color: #fff;
+    box-shadow: 7px 7px 0 #01300f;
+}
+
+
+
+
+.brutalist-card__button:active {
+    transform: translate(5px, 5px);
+    box-shadow: none;
+}
+
+
+
+
 
 @keyframes hero-gradient-animation {
     0% {
@@ -330,76 +499,14 @@ a {
     
 }
 
-#agregarCons{
-    color: black;
-    font-size: 1.7em;
-    box-shadow: inset;
-    width: 300px;
-    height: 100%;
-    text-align: center;
-}
-
-
-#inputAgre{
-    height: 180px;background-color: rgba(49, 151, 151, 0);
-    width: 377px;
-    border-radius: 10px;
-    color: aliceblue;
-    border: 4px solid rgba(255, 255, 255, 0.559);
-    font-size: 1.4em;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-
-button {
-    border: 2px solid #24b4fb;
-    background-color: #24b4fb;
-    border-radius: 0.9em;
-    padding: 0.3em 1em 0.5em 0.4em;
-    transition: all ease-in-out 0.2s;
-    font-size: 14px;
-
-   }
-   
-   button span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-weight: 600;
-   }
-   
    button:hover {
     background-color: #0071e2;
     cursor: pointer;
    }
 
 
-   #bordes{
-    border: 5px solid rgba(67, 51, 51, 0.922);
-    width: 385px;
-    height: 130px;
-    border-radius: 10px;
-    -webkit-box-shadow: -7px -1px 34px -6px rgba(0,0,0,0.82);
-    -moz-box-shadow: -7px -1px 34px -6px rgba(0,0,0,0.82);
-    box-shadow: -7px -1px 34px -6px rgba(0,0,0,0.82);
-    background-color: #ffffff;
-   }
-
-   #buton{
-    margin-left: 245px;
-    margin-top: -48px;
-    padding: 15px;
-   }
 
 
-   #inputbutton{
-    margin-left: 20px;
-    width: 190px;
-    height: 25px;
-    font-size: 1.1em;
-    background-color: #fff5f525;
-    color: black;
-   }
+
 
 

@@ -1,9 +1,9 @@
-async function postUser(nombre, apellido, id) {
+async function postUser(inputAgre, inputbutton, ) {
     try {
 
         const usersDato = {
-            password,
-            email
+            inputAgre,
+            inputbutton
         
 
         }
