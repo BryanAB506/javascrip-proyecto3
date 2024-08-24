@@ -1,5 +1,4 @@
 import { postUser } from "./src/js/postUser"
-
 import { GetUser } from "./src/js/getUser";
 
 
