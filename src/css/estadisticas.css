@@ -1,0 +1,23 @@
+
+.Tabla{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 19px;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+    border: 5px solid #ddd;
+}
+
+
+#eliminar{
+   
+
+}
+
+#titulo2 tr{
+    background-color: rgb(44, 160, 44);
+}
