@@ -1,3 +1,21 @@
 {
-    "user": []
+  "users": [
+    {
+      "id": "40a2",
+      "cedula": "828931",
+      "name": "fabio",
+      "Apellido": "herrera",
+      "email": "kawaighm@gmail.com",
+      "password": "fabiohm"
+    },
+    {
+      "id": "d693",
+      "cedula": "604800134",
+      "name": "fabio",
+      "Apellido": "herrera ",
+      "email": "kawaighm@gmail.com",
+      "password": "fabiohm"
+    }
+  ],
+  "tareas": []
 }
