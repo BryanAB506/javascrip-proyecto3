@@ -1,36 +1,25 @@
-async function postUser(inputAgre, inputbutton, ) {
+async function postUser(Consultas,detalleCon,select,date ) {
     try {
-
         const usersDato = {
-            inputAgre,
-            inputbutton
-        
-
+            Consultas,
+            detalleCon,
+            select,
+            date
         }
-
         //post =guardar
-        const response = await fetch('http://localhost:3000/users', {
+        const response = await fetch('http://localhost:3001/consultas', {
             method: `POST`,
-
             headers: {
                 'content-type': 'application/jon'
             },
-
             body : JSON.stringify(usersDato)
         });
-
         const dato = await response.json();
-
         console.log("datos almacenados");
         return dato;
-        
-
-
-        
-
-
     } catch (error) {
-
+        console.log(error);  
 }
-    
+ 
 }
+export { postUser };
