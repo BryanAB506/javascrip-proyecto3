@@ -665,7 +665,7 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "GetUser", ()=>GetUser);
 async function GetConsultas(consultas) {
     try {
-        const response = await fetch(`http://localhost:3001/consultas/${consultas}`);
+        const response = await fetch("http://localhost:3001/consultas/${consultas}");
         const dato = await response.json();
         return dato;
     } catch (error) {
