@@ -8,6 +8,22 @@
       "email": "kawaighm@gmail.com",
       "password": "fabiohm"
     }
+  ],
+  "consultas": [
+    {
+      "id": "1dd2",
+      "Consultas": "wd2024ayuda",
+      "detalleCon": "nose como inplementae localStrage",
+      "select": "solucion de problemas",
+      "date": "2024-08-30"
+    },
+    {
+      "id": "7ba2",
+      "Consultas": "ayuda",
+      "detalleCon": "me voy a matar",
+      "select": "solucion de problemas",
+      "date": "2024-09-06"
+    }
   ]
   
 }
