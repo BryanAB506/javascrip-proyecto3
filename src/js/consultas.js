@@ -1,5 +1,5 @@
-import { postUser } from "./src/js/postUser"
-import { GetUser } from "./src/js/getUser";
+import { postConsultas } from "../../services/postConsultas";
+import { GetConsultas } from "../../services/getConsultas";
 
 
 const consultas = document.getElementById("Consultas")
@@ -17,10 +17,10 @@ boton.addEventListener("click", function () {
     const selectO= select.value;
     const dateD= date.value;
 
-    postUser(consultasIN, detalleConM, selectO, dateD)
+    postConsultas(consultasIN, detalleConM, selectO, dateD)
 
    
 })
-console.log(GetUser());
+console.log(GetConsultas());
 
 

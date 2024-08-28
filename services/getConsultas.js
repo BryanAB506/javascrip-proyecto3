@@ -2,7 +2,6 @@ async function GetConsultas(consultas) {
     try {
 
 
-
         const response = await fetch('http://localhost:3001/consultas/${consultas}',);
 
         const dato = await response.json();
@@ -28,4 +27,4 @@ let cargar=async()=>{
     });
 }
 
-export { GetUser }
+export { GetConsultas }

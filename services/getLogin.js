@@ -1,10 +1,10 @@
-import { getUsers } from "../servicios/getUsers";
+import { GetUser } from "./getConsultas";
 
-import {postUsers} from "../servicios/postUsers";
+import { postUser } from "./postConsultas";
 
-import { updateUsers } from "../servicios/updateUser";
+import { updateUsers } from "../services/updateUser";
 
-import { deleteUser } from "../servicios/deleteUsers";
+import { deleteUser } from "../services/deleteUser";
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -50,4 +50,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
+
 export { GetUser };

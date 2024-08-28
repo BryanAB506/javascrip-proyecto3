@@ -1,4 +1,4 @@
-async function postUser(Consultas,detalleCon,select,date ) {
+async function postConsultas (Consultas,detalleCon,select,date ) {
     try {
         const usersDato = {
             Consultas,
@@ -22,4 +22,4 @@ async function postUser(Consultas,detalleCon,select,date ) {
 }
  
 }
-export { postUser };
+export { postConsultas };
