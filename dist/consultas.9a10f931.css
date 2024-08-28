@@ -26,6 +26,11 @@ formfont b {
   box-shadow: 0 0 20px #0009;
 }
 
+#navbar {
+  background-color: ;
+  height: 100px;
+}
+
 .container-form {
   text-align: center;
   color: #000;

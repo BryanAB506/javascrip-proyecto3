@@ -9,7 +9,7 @@
 102C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\workers\lib\child.js133688182534653674 0
 130C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\css-select\node_modules\entities\lib\esm\decode.d.ts.map133688182543283661 0
 120C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\electron-to-chromium\full-chromium-versions.js133688182531844644 0
-65C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\dist133692055128540624 1
+65C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\dist133693285501371047 1
 108C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\type-fest\ts41\delimiter-case.d.ts133688182537544804 0
 93C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\svgo\lib\builtin.js133688182540653814 0
 113C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@swc\helpers\esm\_is_native_function.js133688182551894422 0
@@ -194,7 +194,7 @@
 156C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeUselessStrokeAndFill.js133688182546980010 0
 89C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\js-yaml\LICENSE133688182530461728 0
 126C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\csso\node_modules\css-tree\lib\syntax\node\String.js133688182554633913 0
-84C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\src\html\consultas.html133688224690861121 0
+84C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\src\html\consultas.html133693283985548798 0
 107C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\node-addon-api\node_addon_api.gyp133688182530953914 0
 121C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\resolver-default\lib\DefaultResolver.js133688182531359265 0
 94C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\globals\package.json133688182533040095 0
@@ -203,7 +203,7 @@
 131C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\caniuse-lite\data\features\css-container-queries-style.js133688182551894422 0
 117C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\caniuse-lite\data\features\notifications.js133688182562744750 0
 83C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\src\html\register.html133690916208520514 0
-82C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\src\css\consultas.css133687336049629568 0
+82C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\src\css\consultas.css133693285500649214 0
 85C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\cosmiconfig133688182544561957 1
 79C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\chalk133688182534970260 1
 91C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\term-size\license133688182532088744 0
@@ -3683,7 +3683,7 @@
 93C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@swc\helpers\_\_set133688182556629276 1
 120C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\css-select\lib\esm\pseudo-selectors\aliases.js133688182531526026 0
 124C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\css-select\lib\esm\pseudo-selectors\aliases.js.map133688182542420351 0
-80C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\dist\consultas.html133689230821460511 0
+80C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\dist\consultas.html133693285501263335 0
 104C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\core\src\buildCache.js133688182543971100 0
 114C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@swc\helpers\src\_async_to_generator.mjs133688182557654409 0
 120C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\css-select\lib\esm\pseudo-selectors\filters.js133688182536895447 0
@@ -5156,7 +5156,7 @@
 147C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\prepare\index.js133688182543971100 0
 115C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\packager-html\src\HTMLPackager.js133688182532264596 0
 115C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\packager-html\lib\HTMLPackager.js133688182531370249 0
-88C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\dist\consultas.9a10f931.css133689230821460511 0
+88C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\dist\consultas.9a10f931.css133693285501176365 0
 113C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\packager-css\src\CSSPackager.js133688182532264596 0
 143C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\dir.js133688182545070222 0
 113C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\packager-css\lib\CSSPackager.js133688182531370249 0
@@ -5392,7 +5392,7 @@
 130C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\optimizer-svgo\node_modules\css-select\README.md133688182542016550 0
 140C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\attributes.d.ts133688182542350055 0
 137C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\compile.d.ts133688182542575220 0
-91C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\dist\consultas.5baa4167.js.map133692055128530717 0
+91C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\dist\consultas.5baa4167.js.map133693285501343072 0
 135C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\general.js133688182535017414 0
 135C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\index.d.ts133688182543030013 0
 139C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\index.d.ts.map133688182540432454 0
@@ -5910,5 +5910,5 @@
 89C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\.bin\semver.ps1133688182569853717 0
 105C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\.bin\update-browserslist-db.cmd133688182569853717 0
 105C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\node_modules\.bin\update-browserslist-db.ps1133688182569853717 0
-87C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\dist\consultas.5baa4167.js133692055128470966 0
-92C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\dist\consultas.9a10f931.css.map133689230821460511 0
+87C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\dist\consultas.5baa4167.js133693285501263335 0
+92C:\Users\Latitude 5490\Desktop\javascrip\javascrip-proyecto3\dist\consultas.9a10f931.css.map133693285501268390 0
