@@ -31,6 +31,12 @@ formfont b{
     background-color: white;
 }
 
+
+#navbar{
+    height: 100px;
+    background-color: white;
+}
+
 .container-form{
     padding: 16px;
     justify-content: center;

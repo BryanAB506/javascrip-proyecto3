@@ -11,25 +11,8 @@ const getData = () => {
   return datosProcesados;
 };
 
-const postData = async () => {
-  const newUser = getData();
-  
-  try {
-    const response = await fetch('http://localhost:3001/users', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify(newUser)
-    });
 
-    if (response.ok) {
-      const jsonResponse = await response.json();
-      const { email, name, lastName, id, password } = jsonResponse;
-    }
-
-  } catch (error) {
-    console.log(error);
-  }
-};
+ 
 
 const showError = (message) => {
   errorMessage.textContent = message;

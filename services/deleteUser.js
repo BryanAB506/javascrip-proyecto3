@@ -1,5 +1,5 @@
 
-/*async function deleteUser(id) {
+async function deleteUser(id) {
     try {
         const response = await fetch (`http://localhost:3001/consultas/${id}`, {
             method: "DELETE",
@@ -20,12 +20,7 @@
        throw error
         
     }
-
-
-
-
-
-
-
-    
+   
 }
+
+export { deleteUser };
