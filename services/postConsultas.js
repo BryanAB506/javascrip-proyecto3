@@ -22,4 +22,6 @@ async function postConsultas (Consultas,detalleCon,select,date ) {
 }
  
 }
+
+
 export { postConsultas };
