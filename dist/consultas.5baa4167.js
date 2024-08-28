@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"hPIHA":[function(require,module,exports) {
+})({"3MoLH":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -629,7 +629,7 @@ async function postUser(Consultas, detalleCon, select, date) {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"aHEHg"}],"aHEHg":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -660,29 +660,7 @@ exports.export = function(dest, destName, get) {
 };
 
 },{}],"c3dG9":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "GetUser", ()=>GetUser);
-async function GetConsultas(consultas) {
-    try {
-        const response = await fetch(`http://localhost:3001/consultas/${consultas}`);
-        const dato = await response.json();
-        return dato;
-    } catch (error) {
-        console.log(Error);
-    }
-}
-let contendorGrande = document.getElementById("contendor");
-let cargar = async ()=>{
-    let usuarios = await GetConsultas();
-    usuarios.forEach((usuario)=>{
-        let contenedor = document.createElement("div");
-        let parrafo = document.createElement("p");
-        parrafo.innerHTML = "Nombre de la peticion" + usuario.consultas;
-        contendorGrande.appendChild(contenedor);
-    });
-};
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["hPIHA","igcvL"], "igcvL", "parcelRequire1659")
+},{}]},["3MoLH","igcvL"], "igcvL", "parcelRequire1659")
 
 //# sourceMappingURL=consultas.5baa4167.js.map

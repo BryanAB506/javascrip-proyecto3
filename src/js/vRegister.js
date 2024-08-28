@@ -13,21 +13,38 @@ const getData = () => {
 
 const postData = async () => {
   const newUser = getData();
-  
+
   try {
     const response = await fetch('http://localhost:3001/users', {
       method: 'POST',
-      headers: {'Content-Type': 'application/json'},
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(newUser)
     });
 
     if (response.ok) {
-      const jsonResponse = await response.json();
-      const { email, name, lastName, id, password } = jsonResponse;
+      showSuccess('Registro exitoso.');
+    } else {
+      showError('Error en el registro. Inténtalo de nuevo.');
     }
 
   } catch (error) {
     console.log(error);
+    showError('Error en el registro. Inténtalo de nuevo.');
+  }
+};
+
+const checkEmailExists = async (email) => {
+  try {
+    const response = await fetch(`http://localhost:3001/users?email=${encodeURIComponent(email)}`);
+    if (response.ok) {
+      const users = await response.json();
+      return users.length > 0;
+    }
+    throw new Error('Error al verificar el email');
+  } catch (error) {
+    console.log(error);
+    showError('Error al verificar el email. Inténtalo de nuevo.');
+    return false;
   }
 };
 
@@ -40,7 +57,14 @@ const hideError = () => {
   errorModal.style.display = 'none';
 };
 
-const validateForm = () => {
+const showSuccess = (message) => {
+  alert(message);
+  setTimeout(() => {
+    window.location.href = 'javascrip-proyecto3\index.html'; 
+  }, 1000); 
+};
+
+const validateForm = async () => {
   const id = document.getElementById('id').value.trim();
   const name = document.getElementById('name').value.trim();
   const lastName = document.getElementById('lastName').value.trim();
@@ -50,45 +74,48 @@ const validateForm = () => {
   let isValid = true;
 
   if (id === '') {
-    showError('Cedula is required');
+    showError('Cedula sin llenar');
     isValid = false;
   } else if (!/^\d+$/.test(id)) {
-    showError('Cedula must be numeric');
+    showError('Cedula solo numeros');
     isValid = false;
   }
 
   if (name === '') {
-    showError('Nombre is required');
+    showError('Nombre sin llenar');
     isValid = false;
   }
 
   if (lastName === '') {
-    showError('Apellido is required');
+    showError('Apellido sin llenar');
     isValid = false;
   }
 
   if (email === '') {
-    showError('Email is required');
+    showError('Email sin llenar');
     isValid = false;
   } else if (!/\S+@\S+\.\S+/.test(email)) {
-    showError('Email is invalid');
+    showError('Email no valido');
+    isValid = false;
+  } else if (await checkEmailExists(email)) {
+    showError('Email ya registrado');
     isValid = false;
   }
 
   if (password === '') {
-    showError('Debes poner algoContraseña');
+    showError('Debes poner algo Contraseña');
     isValid = false;
   } else if (password.length < 6) {
-    showError('Contraseña must be at least 6 characters long');
+    showError('Debe tener al menos 6 caracteres');
     isValid = false;
   }
 
   return isValid;
 };
 
-btn.addEventListener('click', (event) => {
+btn.addEventListener('click', async (event) => {
   event.preventDefault();
-  if (validateForm()) {
+  if (await validateForm()) {
     postData();
   }
 });
@@ -105,4 +132,3 @@ document.getElementById('id').addEventListener('input', (event) => {
   event.target.value = event.target.value.replace(/\D/g, '');
 });
 
-  

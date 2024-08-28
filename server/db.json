@@ -1,1 +1,13 @@
-
+{
+  "users": [
+    {
+      "id": "0c4f",
+      "cedula": "604800134",
+      "name": "Fabio",
+      "Apellido": "Herrera",
+      "email": "kawaighm@gmail.com",
+      "password": "fabiohm"
+    }
+  ]
+  
+}
