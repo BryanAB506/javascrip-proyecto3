@@ -4,8 +4,12 @@
   "main": "app.js",
   "type": "commonjs",
   "scripts": {
+<<<<<<< HEAD
+    "start": "npx parcel src/html/consultas.html",
+=======
     
     "start": "npx parcel src/html/estadisticas.html",
+>>>>>>> a30a5c076c56fed89938867afa5b49394fa3df08
     "server": "json-server --watch server/db.json --port 3001"
   },
   "author": "",

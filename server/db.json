@@ -3,6 +3,19 @@
  
   ],
   "consultas": [
-   
+    {
+      "id": "1bc4",
+      "Consultas": "la progra es mala",
+      "detalleCon": "nose como inplementae localStrage",
+      "select": "tipo ayuda",
+      "date": "2024-08-30"
+    },
+    {
+      "id": "0032",
+      "Consultas": "x<xX",
+      "detalleCon": "me voy a matar",
+      "select": "solucion de problemas",
+      "date": "2024-08-17"
+    }
   ]
 }

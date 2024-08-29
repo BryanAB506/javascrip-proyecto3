@@ -27,10 +27,27 @@ formfont b{
     margin-left: 350px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-    margin-top: 40px;
+    margin-top: 90px;
     background-color: white;
 }
 
+
+#tituloEstadisticas{
+    font-size: 1.4em;
+    margin-left: 50px;
+}
+
+
+#tituloConsultas{
+    font-size: 1.4em;
+    margin-left: 35px;
+}
+
+#tituloFormulario{
+    font-size: 1.7em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
 
 #navbar{
     height: 100px;
@@ -493,7 +510,7 @@ a {
     background-blend-mode: normal, normal, normal, normal, normal;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 1000px;
 }
 
 #titulo{
