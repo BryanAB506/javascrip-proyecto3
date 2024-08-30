@@ -4,35 +4,6 @@ const errorModal = document.getElementById('errorModal');
 const errorMessage = document.getElementById('errorMessage');
 const spanClose = document.querySelector('.modal .close');
 
-const getData = () => {
-  const datos = new FormData(formulario);
-  const datosProcesados = Object.fromEntries(datos.entries());
-  formulario.reset();
-  return datosProcesados;
-};
-
-const postData = async () => {
-  const newUser = getData();
-
-  try {
-    const response = await fetch('http://localhost:3001/users', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(newUser)
-    });
-
-    if (response.ok) {
-      showSuccess('Registro exitoso.');
-    } else {
-      showError('Error en el registro. Inténtalo de nuevo.');
-    }
-
-  } catch (error) {
-    console.log(error);
-    showError('Error en el registro. Inténtalo de nuevo.');
-  }
-};
-
 const checkEmailExists = async (email) => {
   try {
     const response = await fetch(`http://localhost:3001/users?email=${encodeURIComponent(email)}`);
