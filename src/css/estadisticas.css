@@ -1,3 +1,43 @@
+/* Estilos básicos para la tabla */
+.Tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Tabla th, .Tabla td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.Tabla th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.btn-aceptar, .btn-eliminar {
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-aceptar {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-eliminar {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-aceptar:hover {
+    background-color: #45a049;
+}
+
+.btn-eliminar:hover {
+    background-color: #e53935;
+}
 
 
 @keyframes hero-gradient-animation {

@@ -1,7 +1,5 @@
 {
-  "users": [
- 
-  ],
+  "users": [],
   "consultas": [
     {
       "id": "1bc4",
@@ -16,6 +14,20 @@
       "detalleCon": "me voy a matar",
       "select": "solucion de problemas",
       "date": "2024-08-17"
+    },
+    {
+      "id": "4701",
+      "Consultas": "pene",
+      "detalleCon": "pene",
+      "select": "tipo ayuda",
+      "date": "2024-08-25"
+    },
+    {
+      "id": "4701",
+      "Consultas": "pene",
+      "detalleCon": "pene",
+      "select": "tipo ayuda",
+      "date": "2024-08-25"
     }
   ]
 }
