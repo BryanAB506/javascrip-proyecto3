@@ -1,21 +1,26 @@
 {
-  "users": [
- 
-  ],
+  "users": [],
   "consultas": [
     {
-      "id": "1bc4",
-      "Consultas": "la progra es mala",
-      "detalleCon": "nose como inplementae localStrage",
-      "select": "tipo ayuda",
+      "id": "7a7e",
+      "Consultas": "mi compañero es bautista",
+      "detalleCon": "me voy a matar",
+      "select": "seleccione su consulta",
       "date": "2024-08-30"
     },
     {
-      "id": "0032",
-      "Consultas": "x<xX",
+      "id": "ca5b",
+      "Consultas": "mi compañero es bautista",
       "detalleCon": "me voy a matar",
-      "select": "solucion de problemas",
-      "date": "2024-08-17"
+      "select": "seleccione su consulta",
+      "date": "2024-08-30"
+    },
+    {
+      "id": "0f16",
+      "Consultas": "mi compañero es bautista",
+      "detalleCon": "me voy a matar",
+      "select": "seleccione su consulta",
+      "date": "2024-08-30"
     }
   ]
 }
